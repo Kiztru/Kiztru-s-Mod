@@ -26,6 +26,6 @@ public class ModItems {
         KiztrusMod.LOGGER.info("Registering Mod Items for " + KiztrusMod.MOD_ID);
 
 
-        };
+        }
     }
 

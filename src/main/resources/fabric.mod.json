@@ -12,7 +12,7 @@
 		"sources": "https://github.com/Kiztru"
 	},
 	"license": "MIT",
-	"icon": "assets/kiztrus-mod/icon.png",
+	"icon": "assets/kiztrusmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
