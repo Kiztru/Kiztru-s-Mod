@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "kiztrus-mod",
+	"version": "${version}",
+	"name": "Kiztru's Mod",
+	"description": "This is my first mod and my only mod with random stuff modded to Minecraft",
+	"authors": [
+		"Kiztru"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/Kiztru's Mod",
+		"sources": "https://github.com/Kiztru"
+	},
+	"license": "MIT",
+	"icon": "assets/kiztrus-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kiztru.mod.KiztrusMod"
+		],
+		"fabric-datagen": [
+			"com.kiztru.mod.KiztrusModDataGenerator"
+		],
+		"client": [
+			"com.kiztru.mod.KiztrusModClient"
+		]
+	},
+	"mixins": [
+		"kiztrus-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
