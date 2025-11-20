@@ -1,0 +1,20 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "kiztrusmod:aether_crystal"
+    },
+    "#": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "id": "kiztrusmod:aether_rod",
+    "count": 1
+  }
+}
