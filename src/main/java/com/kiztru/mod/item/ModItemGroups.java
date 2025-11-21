@@ -17,11 +17,10 @@ public static final ItemGroup AETHER_CRYSTAL = Registry.register(Registries.ITEM
                 .displayName(Text.translatable("itemgroup.kiztrusmod.aether_crystal_items"))
                 .entries((displayContext, entries) -> {
                     entries.add(ModItems.AETHER_CRYSTAL);
-                    entries.add(ModBlocks.BLOCK_OF_AETHER);
                     entries.add(ModItems.AETHER_ROD);
+                    entries.add(ModBlocks.BLOCK_OF_AETHER);
                     entries.add(ModBlocks.RAW_BLOCK_OF_AETHER);
                     entries.add(ModItems.AETHER_CLUSTER);
-
                     entries.add(ModBlocks.AETHER_CRYSTAL_ORE);
                     entries.add(ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE);
 
@@ -30,6 +29,6 @@ public static final ItemGroup AETHER_CRYSTAL = Registry.register(Registries.ITEM
                 }).build());
 
     public static void registerItemGroups(){
-        KiztrusMod.LOGGER.info("Registering Item Groups for " + KiztrusMod.MOD_ID);
+        KiztrusMod.LOGGER.info("Registering Item Groups for " + KiztrusMod.MOD_ID + AETHER_CRYSTAL);
     }
 }

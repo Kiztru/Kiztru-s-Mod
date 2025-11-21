@@ -16,19 +16,19 @@ public class ModBlocks {
 
     public static final Block BLOCK_OF_AETHER = registerBlock("block_of_aether",
         new Block(AbstractBlock.Settings.
-        create().strength(2F).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+        create().strength(5.0F,6.0F).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block RAW_BLOCK_OF_AETHER = registerBlock("raw_block_of_aether",
         new Block(AbstractBlock.Settings.
-        create().strength(3F).requiresTool().sounds(BlockSoundGroup.STONE)));
+        create().strength(5.0F,6.0F).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block AETHER_CRYSTAL_ORE = registerBlock("aether_crystal_ore",
         new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
-            AbstractBlock.Settings.create().strength(2F).requiresTool().sounds(BlockSoundGroup.STONE)));
+            AbstractBlock.Settings.create().strength(3.0F,3.0F).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block DEEPSLATE_AETHER_CRYSTAL_ORE = registerBlock("deepslate_aether_crystal_ore",
         new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
-                AbstractBlock.Settings.create().strength(3F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+                AbstractBlock.Settings.create().strength(4.5F,3.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
