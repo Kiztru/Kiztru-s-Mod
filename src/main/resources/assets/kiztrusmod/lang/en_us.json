@@ -2,9 +2,10 @@
   "item.kiztrusmod.aether_crystal": "Aether Crystal",
   "item.kiztrusmod.aether_cluster": "Aether Cluster",
   "item.kiztrusmod.aether_rod": "Aether Rod",
-
   "block.kiztrusmod.block_of_aether": "Block of Aether",
   "block.kiztrusmod.raw_block_of_aether": "Raw Block of Aether",
+  "block.kiztrusmod.aether_crystal_ore": "Aether Crystal Ore",
+  "block.kiztrusmod.deepslate_aether_crystal_ore": "Deepslate Aether Crystal Ore",
 
   "itemgroup.kiztrusmod.aether_crystal_items": "Kiztru's Mod"
 }
