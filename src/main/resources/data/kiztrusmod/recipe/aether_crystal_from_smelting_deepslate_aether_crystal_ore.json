@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "ingredient": {
-    "item": "kiztrusmod:raw_block_of_aether"
+    "item": "kiztrusmod:deepslate_aether_crystal_ore"
   },
   "result": {
     "id": "kiztrusmod:aether_crystal"
   },
   "experience": 1,
-  "cookingtime": 100,
+  "cookingtime": 200,
   "group": "aether_crystal"
 }

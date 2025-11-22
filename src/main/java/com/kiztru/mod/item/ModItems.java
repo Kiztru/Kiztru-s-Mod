@@ -1,10 +1,16 @@
 package com.kiztru.mod.item;
 
 import com.kiztru.mod.KiztrusMod;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+
+import java.util.List;
 
 public class ModItems {
     // Registering Items
@@ -16,6 +22,22 @@ public class ModItems {
 
     public static final Item AETHER_CLUSTER =
             registerItem("aether_cluster", new Item(new Item.Settings()));
+
+    public static final Item ARCHON_BREAD =
+            registerItem("archon_bread", new  Item(new Item.Settings().food(ModFoodComponents.ARCHON_BREAD)){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.kiztrusmod.archon_bread.shift_down"));
+                        tooltip.add(Text.translatable("tooltip.kiztrusmod.archon_bread.shift_down.1"));
+                        tooltip.add(Text.translatable("tooltip.kiztrusmod.archon_bread.shift_down.2"));
+                    }
+                    else {
+                        tooltip.add(Text.translatable("tooltip.kiztrusmod.archon_bread"));
+                    }
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(KiztrusMod.MOD_ID, name),item);

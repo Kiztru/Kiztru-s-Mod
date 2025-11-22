@@ -23,9 +23,7 @@ public static final ItemGroup AETHER_CRYSTAL = Registry.register(Registries.ITEM
                     entries.add(ModItems.AETHER_CLUSTER);
                     entries.add(ModBlocks.AETHER_CRYSTAL_ORE);
                     entries.add(ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE);
-
-
-
+                    entries.add(ModItems.ARCHON_BREAD);
                 }).build());
 
     public static void registerItemGroups(){

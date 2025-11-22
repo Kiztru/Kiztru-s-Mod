@@ -1,6 +1,5 @@
 {
   "type":"minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "X": {
       "item": "kiztrusmod:aether_crystal"
