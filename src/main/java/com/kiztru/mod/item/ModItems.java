@@ -1,6 +1,7 @@
 package com.kiztru.mod.item;
 
 import com.kiztru.mod.KiztrusMod;
+import com.kiztru.mod.sound.ModSounds;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -38,6 +39,10 @@ public class ModItems {
                     super.appendTooltip(stack, context, tooltip, type);
                 }
             });
+
+    public static final Item REMEMBER_US_MUSIC_DISC = registerItem("remember_us_music_disc",
+        new Item(new Item.Settings().jukeboxPlayable(ModSounds.REMEMBER_US_KEY).maxCount(1)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(KiztrusMod.MOD_ID, name),item);

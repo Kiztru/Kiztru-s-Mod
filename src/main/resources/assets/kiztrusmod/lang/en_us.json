@@ -2,11 +2,15 @@
   "item.kiztrusmod.aether_crystal": "Aether Crystal",
   "item.kiztrusmod.aether_cluster": "Aether Cluster",
   "item.kiztrusmod.aether_rod": "Aether Rod",
+  "item.kiztrusmod.archon_bread": "Archon Bread",
+  "item.kiztrusmod.remember_us_music_disc": "Remember Us..",
+  "item.kiztrusmod.remember_us_music_disc.desc": "FFXIV OST Amaurot Overworld Theme ( Neath Dark Waters )",
+
   "block.kiztrusmod.block_of_aether": "Block of Aether",
   "block.kiztrusmod.raw_block_of_aether": "Block of Raw Aether",
   "block.kiztrusmod.aether_crystal_ore": "Aether Crystal Ore",
   "block.kiztrusmod.deepslate_aether_crystal_ore": "Deepslate Aether Crystal Ore",
-  "item.kiztrusmod.archon_bread": "Archon Bread",
+
   "tooltip.kiztrusmod.archon_bread.shift_down": "Baked with either fish or vegetable flour,",
   "tooltip.kiztrusmod.archon_bread.shift_down.1": "this fluffy loaf of rye bread is─from a",
   "tooltip.kiztrusmod.archon_bread.shift_down.2": "nutritional standpoint─wholesome indeed.",

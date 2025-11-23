@@ -1,0 +1,10 @@
+{
+  "remember_us": {
+    "sounds": [
+      {
+        "name": "kiztrusmod:remember_us",
+        "stream": true
+      }
+    ]
+  }
+}
