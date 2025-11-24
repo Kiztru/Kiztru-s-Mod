@@ -1,19 +1,18 @@
 {
-  "type":"minecraft:crafting_shaped",
-  "key": {
-    "X": {
+  "type":"minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "kiztrusmod:aether_crystal"
     },
-    "#": {
+    {
       "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:stick"
     }
-  },
-  "pattern": [
-    "X",
-    "#"
   ],
   "result": {
-    "id": "kiztrusmod:aether_rod",
-    "count": 1
+    "count": 1,
+    "id": "kiztrusmod:aether_rod"
   }
 }
