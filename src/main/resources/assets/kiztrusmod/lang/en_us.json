@@ -3,8 +3,12 @@
   "item.kiztrusmod.aether_cluster": "Aether Cluster",
   "item.kiztrusmod.aether_rod": "Aether Rod",
   "item.kiztrusmod.archon_bread": "Archon Bread",
+
   "item.kiztrusmod.remember_us_music_disc": "Remember Us..",
-  "item.kiztrusmod.remember_us_music_disc.desc": "FFXIV OST Amaurot Overworld Theme ( Neath Dark Waters )",
+  "item.kiztrusmod.remember_us_music_disc.desc": "FF14 OST Neath Dark Waters",
+
+  "item.kiztrusmod.my_people_music_disc": "My People.. My Brothers..",
+  "item.kiztrusmod.my_people_music_disc.desc": "FF14 OST Fleeting Moment",
 
   "block.kiztrusmod.block_of_aether": "Block of Aether",
   "block.kiztrusmod.raw_block_of_aether": "Block of Raw Aether",

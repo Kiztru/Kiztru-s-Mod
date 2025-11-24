@@ -16,6 +16,11 @@ public class ModSounds {
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG,
             Identifier.of(KiztrusMod.MOD_ID,"remember_us"));
 
+    public static final SoundEvent MY_PEOPLE = registerSoundEvent("my_people");
+    public static final RegistryKey<JukeboxSong> MY_PEOPLE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG,
+                    Identifier.of(KiztrusMod.MOD_ID,"my_people"));
+
 
     private static SoundEvent registerSoundEvent(String name){
         Identifier id = Identifier.of(KiztrusMod.MOD_ID,name);
@@ -23,6 +28,6 @@ public class ModSounds {
     }
 
     public static void registerSounds(){
-        KiztrusMod.LOGGER.info("Registering Mod Sounds for " + KiztrusMod.MOD_ID);
+        KiztrusMod.LOGGER.info("Registering Mod Sounds for " + KiztrusMod.MOD_ID + REMEMBER_US + MY_PEOPLE);
     }
 }

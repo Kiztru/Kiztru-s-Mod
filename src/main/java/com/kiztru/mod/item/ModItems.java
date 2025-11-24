@@ -41,7 +41,10 @@ public class ModItems {
             });
 
     public static final Item REMEMBER_US_MUSIC_DISC = registerItem("remember_us_music_disc",
-        new Item(new Item.Settings().jukeboxPlayable(ModSounds.REMEMBER_US_KEY).maxCount(1)));
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.REMEMBER_US_KEY).maxCount(1)));
+
+    public static final Item MY_PEOPLE_MUSIC_DISC = registerItem("my_people_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.MY_PEOPLE_KEY).maxCount(1)));
 
 
     private static Item registerItem(String name, Item item){
