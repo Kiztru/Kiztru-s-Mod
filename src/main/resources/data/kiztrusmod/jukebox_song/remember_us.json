@@ -3,6 +3,6 @@
   "description": {
     "translate": "item.kiztrusmod.remember_us_music_disc.desc"
   },
-  "length_in_seconds": 301,
+  "length_in_seconds": 236,
   "sound_event": "kiztrusmod:remember_us"
 }

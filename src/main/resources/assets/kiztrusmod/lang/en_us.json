@@ -18,7 +18,7 @@
   "tooltip.kiztrusmod.archon_bread.shift_down": "Baked with either fish or vegetable flour,",
   "tooltip.kiztrusmod.archon_bread.shift_down.1": "this fluffy loaf of rye bread is─from a",
   "tooltip.kiztrusmod.archon_bread.shift_down.2": "nutritional standpoint─wholesome indeed.",
-  "tooltip.kiztrusmod.archon_bread":"Press §9§lShift§r for more info.",
+  "tooltip.kiztrusmod.archon_bread":"Press §e§nShift§r for more info:",
 
   "itemgroup.kiztrusmod.aether_crystal_items": "Kiztru's Mod"
 }
