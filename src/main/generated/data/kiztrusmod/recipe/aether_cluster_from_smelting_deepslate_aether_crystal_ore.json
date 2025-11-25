@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "aether_crystal",
+  "ingredient": {
+    "item": "kiztrusmod:deepslate_aether_crystal_ore"
+  },
+  "result": {
+    "id": "kiztrusmod:aether_cluster"
+  }
+}

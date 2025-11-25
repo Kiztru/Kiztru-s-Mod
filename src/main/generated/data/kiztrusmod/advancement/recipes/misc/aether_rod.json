@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aether_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "kiztrusmod:aether_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "kiztrusmod:aether_rod"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aether_crystal",
+      "has_quartz"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kiztrusmod:aether_rod"
+    ]
+  }
+}
