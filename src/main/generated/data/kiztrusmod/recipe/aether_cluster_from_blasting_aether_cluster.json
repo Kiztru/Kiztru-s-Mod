@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "aether_crystal",
+  "ingredient": {
+    "item": "kiztrusmod:aether_cluster"
+  },
+  "result": {
+    "id": "kiztrusmod:aether_cluster"
+  }
+}

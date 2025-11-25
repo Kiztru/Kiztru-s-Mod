@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block_of_aether": {
+      "conditions": {
+        "items": [
+          {
+            "items": "kiztrusmod:block_of_aether"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:aether_crystal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_block_of_aether"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:aether_crystal"
+    ]
+  }
+}
