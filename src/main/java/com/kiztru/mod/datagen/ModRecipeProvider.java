@@ -1,5 +1,6 @@
 package com.kiztru.mod.datagen;
 
+import com.kiztru.mod.KiztrusMod;
 import com.kiztru.mod.block.ModBlocks;
 import com.kiztru.mod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -11,6 +12,7 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -31,34 +33,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 1F,200,"aether_crystal");
 
         // Blasting Furnace
-        offerSmelting(recipeExporter, AETHER_SMELTABLES, RecipeCategory.MISC,ModItems.AETHER_CLUSTER,
+        offerBlasting(recipeExporter, AETHER_SMELTABLES, RecipeCategory.MISC,ModItems.AETHER_CLUSTER,
                 1F,100,"aether_crystal");
 
         // 9 Aether Crystals = Block of Aether
+        // Block of Aether = 9 Aether Crystals
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS,
                 ModItems.AETHER_CRYSTAL,RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_AETHER);
 
         // 9 Aether Clusters = Raw Block of Aether
+        // Raw Block of Aether = 9 Aether Clusters
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS,
                 ModItems.AETHER_CLUSTER,RecipeCategory.DECORATIONS, ModBlocks.RAW_BLOCK_OF_AETHER);
-
-        // Block of Aether = 9 Aether Crystals
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.BLOCK_OF_AETHER)
-                .pattern("BBB")
-                .pattern("BBB")
-                .pattern("BBB")
-                .input('B', ModItems.AETHER_CRYSTAL)
-                .criterion(hasItem(ModItems.AETHER_CRYSTAL),conditionsFromItem(ModItems.AETHER_CRYSTAL))
-                .offerTo(recipeExporter);
-
-        // Raw Block of Aether = 9 Aether Clusters
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_BLOCK_OF_AETHER)
-                .pattern("RRR")
-                .pattern("RRR")
-                .pattern("RRR")
-                .input('R', ModItems.AETHER_CLUSTER)
-                .criterion(hasItem(ModItems.AETHER_CLUSTER),conditionsFromItem(ModItems.AETHER_CLUSTER))
-                .offerTo(recipeExporter);
 
         // Aether Rod Recipe
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AETHER_ROD)
@@ -80,7 +66,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.WHEAT)
                 .group("Archon")
                 .criterion(hasItem(Items.COOKED_COD), conditionsFromItem(Items.COOKED_COD))
-                .offerTo(recipeExporter);
+                .offerTo(recipeExporter, Identifier.of(KiztrusMod.MOD_ID, "archon_bread_cod"));
 
         // Archon Bread Made with Cooked Salmon
         ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.ARCHON_BREAD)
@@ -90,7 +76,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.WHEAT)
                 .group("Archon")
                 .criterion(hasItem(Items.COOKED_COD), conditionsFromItem(Items.COOKED_COD))
-                .offerTo(recipeExporter);
+                .offerTo(recipeExporter, Identifier.of(KiztrusMod.MOD_ID, "archon_bread_salmon"));
 
     }
 }
