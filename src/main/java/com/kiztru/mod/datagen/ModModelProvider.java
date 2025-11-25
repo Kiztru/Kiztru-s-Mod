@@ -29,6 +29,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AETHER_CLUSTER, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARCHON_BREAD, Models.GENERATED);
         itemModelGenerator.register(ModItems.REMEMBER_US_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MY_PEOPLE_MUSIC_DISC, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.AETHER_CRYSTAL_SWORD, Models.HANDHELD);
 
     }
 }

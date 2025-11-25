@@ -1,6 +1,7 @@
 package com.kiztru.mod.datagen;
 
 import com.kiztru.mod.block.ModBlocks;
+import com.kiztru.mod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -27,6 +28,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLOCK_OF_AETHER)
                 .add(ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE)
                 .add(ModBlocks.RAW_BLOCK_OF_AETHER);
+
+        // Aether Crystal tools can mine Diamond items
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_AETHER_CRYSTAL_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
     }
 }

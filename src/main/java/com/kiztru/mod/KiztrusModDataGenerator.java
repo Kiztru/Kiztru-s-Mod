@@ -1,9 +1,6 @@
 package com.kiztru.mod;
 
-import com.kiztru.mod.datagen.ModBlockTagProvider;
-import com.kiztru.mod.datagen.ModLootTableProvider;
-import com.kiztru.mod.datagen.ModModelProvider;
-import com.kiztru.mod.datagen.ModRecipeProvider;
+import com.kiztru.mod.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -14,6 +11,7 @@ public class KiztrusModDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);

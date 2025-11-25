@@ -1,3 +1,4 @@
-// 1.21	2025-11-25T10:15:53.2830089	Kiztru's Mod/Tags for minecraft:block
+// 1.21	2025-11-26T00:10:34.4730266	Kiztru's Mod/Tags for minecraft:block
 e89bc3f4fbba3d325933de2d4fea8a1ac7d4bd38 data\minecraft\tags\block\needs_diamond_tool.json
 e89bc3f4fbba3d325933de2d4fea8a1ac7d4bd38 data\minecraft\tags\block\mineable\pickaxe.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data\kiztrusmod\tags\block\needs_aether_crystal_tool.json

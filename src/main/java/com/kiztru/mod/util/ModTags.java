@@ -9,6 +9,9 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks {
+        public static TagKey<Block> NEEDS_AETHER_CRYSTAL_TOOL = createTag("needs_aether_crystal_tool");
+        public static final TagKey<Block> INCORRECT_FOR_AETHER_CRYSTAL_TOOL = createTag("incorrect_needs_aether_crystal_tool");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(KiztrusMod.MOD_ID, name));
 

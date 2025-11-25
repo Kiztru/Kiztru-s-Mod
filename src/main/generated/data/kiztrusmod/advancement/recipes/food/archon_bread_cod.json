@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "kiztrusmod:archon_bread_cod"
+        "recipe": "minecraft:archon_bread_cod"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "kiztrusmod:archon_bread_cod"
+      "minecraft:archon_bread_cod"
     ]
   }
 }

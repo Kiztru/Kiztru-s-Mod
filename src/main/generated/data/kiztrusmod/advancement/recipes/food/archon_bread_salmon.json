@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "kiztrusmod:archon_bread_salmon"
+        "recipe": "minecraft:archon_bread_salmon"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "kiztrusmod:archon_bread_salmon"
+      "minecraft:archon_bread_salmon"
     ]
   }
 }
