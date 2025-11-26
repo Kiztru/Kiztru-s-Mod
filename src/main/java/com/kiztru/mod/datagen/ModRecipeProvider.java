@@ -36,10 +36,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 1F,100,"aether_crystal");
 
         // 9 Aether Crystals = Block of Aether
+        // Block of Aether = 9 Aether Crystals
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS,
                 ModItems.AETHER_CRYSTAL,RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_AETHER);
 
         // 9 Aether Clusters = Raw Block of Aether
+        // Raw Block of Aether = 9 Aether Crystals
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS,
                 ModItems.AETHER_CLUSTER,RecipeCategory.DECORATIONS, ModBlocks.RAW_BLOCK_OF_AETHER);
 
@@ -63,8 +65,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.POTATO)
                 .input(Items.WHEAT)
                 .group("Archon")
-                .criterion(hasItem(Items.COOKED_COD), conditionsFromItem(Items.COOKED_COD))
-                .offerTo(recipeExporter, Identifier.of("archon_bread_cod"));
+                .criterion(hasItem(Items.COOKED_COD), conditionsFromItem(Items.COOKED_COD)) // When item in inventory
+                .offerTo(recipeExporter, Identifier.of("archon_bread_cod"));            // Different IDs so no conflicts can happen during data generation
 
         // Archon Bread Made with Cooked Salmon
         ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.ARCHON_BREAD)

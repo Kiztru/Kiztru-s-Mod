@@ -22,7 +22,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     }
 
-    @Override
+    @Override   // Generation of Item Models json files, GENERATED means normal item, Handheld used as a tool.
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.AETHER_CRYSTAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.AETHER_ROD, Models.GENERATED);

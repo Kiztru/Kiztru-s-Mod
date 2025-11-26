@@ -26,12 +26,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        // This drops itself
         addDrop(ModBlocks.AETHER_CRYSTAL_ORE);
         addDrop(ModBlocks.BLOCK_OF_AETHER);
-
         addDrop(ModBlocks.RAW_BLOCK_OF_AETHER);
 
+        // Aether Crystal Ore drops ----> Aether Cluster
         addDrop(ModBlocks.AETHER_CRYSTAL_ORE, oreDrops(ModBlocks.AETHER_CRYSTAL_ORE, ModItems.AETHER_CLUSTER));
+
+        // Deepslate Aether Crystal Ore drops ----> Aether Cluster
         addDrop(ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE,
                 ModItems.AETHER_CLUSTER, 1,2));
 

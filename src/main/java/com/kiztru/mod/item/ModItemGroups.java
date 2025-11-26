@@ -16,6 +16,8 @@ public static final ItemGroup AETHER_CRYSTAL = Registry.register(Registries.ITEM
         FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.AETHER_CRYSTAL))
                 .displayName(Text.translatable("itemgroup.kiztrusmod.aether_crystal_items"))
                 .entries((displayContext, entries) -> {
+
+                    // Adding items/blocks to a custom creative tab
                     entries.add(ModBlocks.AETHER_CRYSTAL_ORE);
                     entries.add(ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE);
                     entries.add(ModItems.AETHER_CLUSTER);
