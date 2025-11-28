@@ -1,6 +1,7 @@
 package com.kiztru.mod.item;
 
 import com.kiztru.mod.KiztrusMod;
+import com.kiztru.mod.item.custom.ModGlowingSwordItem;
 import com.kiztru.mod.sound.ModSounds;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.item.Item;
@@ -48,7 +49,7 @@ public class ModItems {
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.MY_PEOPLE_KEY).maxCount(1)));
 
     public static final Item AETHER_CRYSTAL_SWORD = registerItem("aether_crystal_sword",
-            new SwordItem(ModToolMaterials.AETHER_CRYSTAL, new Item.Settings()
+            new ModGlowingSwordItem(ModToolMaterials.AETHER_CRYSTAL, new Item.Settings()
                     .attributeModifiers(SwordItem.
                             createAttributeModifiers(ModToolMaterials.AETHER_CRYSTAL,4, -2F))));
 
