@@ -19,6 +19,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_AETHER);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_BLOCK_OF_AETHER);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.ELPIS,ModBlocks.POTTED_ELPIS, BlockStateModelGenerator.TintType.NOT_TINTED);
 
     }
 

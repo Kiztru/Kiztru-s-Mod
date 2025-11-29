@@ -29,6 +29,7 @@ public static final ItemGroup AETHER_CRYSTAL = Registry.register(Registries.ITEM
                     entries.add(ModItems.REMEMBER_US_MUSIC_DISC);
                     entries.add(ModItems.MY_PEOPLE_MUSIC_DISC);
                     entries.add(ModItems.ARCHON_BREAD);
+                    entries.add(ModBlocks.ELPIS);
                 }).build());
 
     public static void registerItemGroups(){
