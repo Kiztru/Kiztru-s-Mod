@@ -4,6 +4,7 @@ import com.kiztru.mod.block.ModBlocks;
 import com.kiztru.mod.item.ModItemGroups;
 import com.kiztru.mod.item.ModItems;
 import com.kiztru.mod.sound.ModSounds;
+import com.kiztru.mod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -26,5 +27,7 @@ public class KiztrusMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModSounds.registerSounds();
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
