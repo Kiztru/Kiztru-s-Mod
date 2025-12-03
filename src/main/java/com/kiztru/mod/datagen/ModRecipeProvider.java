@@ -28,11 +28,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE);
 
         // Smelting Furnace
-        offerSmelting(recipeExporter, AETHER_SMELTABLES, RecipeCategory.MISC,ModItems.AETHER_CLUSTER,
+        offerSmelting(recipeExporter, AETHER_SMELTABLES, RecipeCategory.MISC,ModItems.AETHER_CRYSTAL,
                 1F,200,"aether_crystal");
 
         // Blasting Furnace
-        offerBlasting(recipeExporter, AETHER_SMELTABLES, RecipeCategory.MISC,ModItems.AETHER_CLUSTER,
+        offerBlasting(recipeExporter, AETHER_SMELTABLES, RecipeCategory.MISC,ModItems.AETHER_CRYSTAL,
                 1F,100,"aether_crystal");
 
         // 9 Aether Crystals = Block of Aether

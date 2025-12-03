@@ -5,9 +5,9 @@
   "experience": 1.0,
   "group": "aether_crystal",
   "ingredient": {
-    "item": "kiztrusmod:aether_crystal_ore"
+    "item": "kiztrusmod:aether_cluster"
   },
   "result": {
-    "id": "kiztrusmod:aether_cluster"
+    "id": "kiztrusmod:aether_crystal"
   }
 }

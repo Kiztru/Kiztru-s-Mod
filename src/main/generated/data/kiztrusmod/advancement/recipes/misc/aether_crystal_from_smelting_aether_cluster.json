@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:aether_cluster_from_smelting_aether_cluster"
+        "recipe": "minecraft:aether_crystal_from_smelting_aether_cluster"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:aether_cluster_from_smelting_aether_cluster"
+      "minecraft:aether_crystal_from_smelting_aether_cluster"
     ]
   }
 }

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_aether_crystal_ore": {
+    "has_aether_cluster": {
       "conditions": {
         "items": [
           {
-            "items": "kiztrusmod:aether_crystal_ore"
+            "items": "kiztrusmod:aether_cluster"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:aether_cluster_from_smelting_aether_crystal_ore"
+        "recipe": "minecraft:aether_crystal_from_blasting_aether_cluster"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_aether_crystal_ore"
+      "has_aether_cluster"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:aether_cluster_from_smelting_aether_crystal_ore"
+      "minecraft:aether_crystal_from_blasting_aether_cluster"
     ]
   }
 }

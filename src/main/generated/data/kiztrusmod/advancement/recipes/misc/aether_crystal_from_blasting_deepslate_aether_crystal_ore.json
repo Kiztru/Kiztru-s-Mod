@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:aether_cluster_from_smelting_deepslate_aether_crystal_ore"
+        "recipe": "minecraft:aether_crystal_from_blasting_deepslate_aether_crystal_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:aether_cluster_from_smelting_deepslate_aether_crystal_ore"
+      "minecraft:aether_crystal_from_blasting_deepslate_aether_crystal_ore"
     ]
   }
 }
