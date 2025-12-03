@@ -20,6 +20,10 @@ public abstract class ParrotTextureMixin {
             return Identifier.of("kiztrusmod", "textures/entity/parrot/albino_parrot.png");
         }
 
+        if (parrot.getName().getString().equalsIgnoreCase("Torou")) {
+            return Identifier.of("kiztrusmod", "textures/entity/parrot/yellow_parrot.png");
+        }
+
         return original;
     }
 }
