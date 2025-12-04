@@ -19,6 +19,15 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_AETHER);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_BLOCK_OF_AETHER);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_BLOCK_OF_FIRE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_FIRE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_FIRE_CRYSTAL_ORE);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_BLOCK_OF_CHAOS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK_OF_CHAOS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_CHAOS_CRYSTAL_ORE);
+
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.ELPIS,ModBlocks.POTTED_ELPIS, BlockStateModelGenerator.TintType.NOT_TINTED);
 
     }
@@ -28,6 +37,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AETHER_CRYSTAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.AETHER_ROD, Models.GENERATED);
         itemModelGenerator.register(ModItems.AETHER_CLUSTER, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.FIRE_CRYSTAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FIRE_ROD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FIRE_CLUSTER, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.CHAOS_CRYSTAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHAOS_ROD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHAOS_CLUSTER, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.ARCHON_BREAD, Models.GENERATED);
         itemModelGenerator.register(ModItems.REMEMBER_US_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MY_PEOPLE_MUSIC_DISC, Models.GENERATED);

@@ -13,6 +13,8 @@ public class ModConfiguredFeatures {
     // Configured Feature --> Placed Feature --> World Generation / Biome Modification
     // What does it look like? --> How is it going to be placed? --> Where is it going to place?
 
+    public static final RegistryKey<ConfiguredFeature<?, ?>> AETHER_CRYSTAL_ORE_KEY = registryKey("aether_crystal_ore");
+
     // Register any configured feature
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context){
 

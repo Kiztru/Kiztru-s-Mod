@@ -20,11 +20,29 @@ public class ModItems {
     public static final Item AETHER_CRYSTAL =
             registerItem("aether_crystal", new Item(new Item.Settings()));
 
+    public static final Item FIRE_CRYSTAL =
+            registerItem("fire_crystal", new Item(new Item.Settings()));
+
+    public static final Item CHAOS_CRYSTAL =
+            registerItem("chaos_crystal", new Item(new Item.Settings()));
+
     public static final Item AETHER_ROD =
             registerItem("aether_rod", new Item(new Item.Settings()));
 
+    public static final Item FIRE_ROD =
+            registerItem("fire_rod", new Item(new Item.Settings()));
+
+    public static final Item CHAOS_ROD =
+            registerItem("chaos_rod", new Item(new Item.Settings()));
+
     public static final Item AETHER_CLUSTER =
             registerItem("aether_cluster", new Item(new Item.Settings()));
+
+    public static final Item FIRE_CLUSTER =
+            registerItem("fire_cluster", new Item(new Item.Settings()));
+
+    public static final Item CHAOS_CLUSTER =
+            registerItem("chaos_cluster", new Item(new Item.Settings()));
 
     public static final Item ARCHON_BREAD =
             registerItem("archon_bread", new  Item(new Item.Settings().food(ModFoodComponents.ARCHON_BREAD)){

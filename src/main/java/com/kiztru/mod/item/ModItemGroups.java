@@ -20,15 +20,36 @@ public static final ItemGroup AETHER_CRYSTAL = Registry.register(Registries.ITEM
                     // Adding items/blocks to a custom creative tab
                     entries.add(ModBlocks.AETHER_CRYSTAL_ORE);
                     entries.add(ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE);
+                    entries.add(ModBlocks.NETHER_FIRE_CRYSTAL_ORE);
+                    entries.add(ModBlocks.END_CHAOS_CRYSTAL_ORE);
+
                     entries.add(ModItems.AETHER_CLUSTER);
+                    entries.add(ModItems.FIRE_CLUSTER);
+                    entries.add(ModItems.CHAOS_CLUSTER);
+
                     entries.add(ModBlocks.RAW_BLOCK_OF_AETHER);
+                    entries.add(ModBlocks.RAW_BLOCK_OF_FIRE);
+                    entries.add(ModBlocks.RAW_BLOCK_OF_CHAOS);
+
                     entries.add(ModItems.AETHER_CRYSTAL);
+                    entries.add(ModItems.FIRE_CRYSTAL);
+                    entries.add(ModItems.CHAOS_CRYSTAL);
+
                     entries.add(ModBlocks.BLOCK_OF_AETHER);
+                    entries.add(ModBlocks.BLOCK_OF_FIRE);
+                    entries.add(ModBlocks.BLOCK_OF_CHAOS);
+
                     entries.add(ModItems.AETHER_ROD);
+                    entries.add(ModItems.FIRE_ROD);
+                    entries.add(ModItems.CHAOS_ROD);
+
                     entries.add(ModItems.AETHER_CRYSTAL_SWORD);
+
                     entries.add(ModItems.REMEMBER_US_MUSIC_DISC);
                     entries.add(ModItems.MY_PEOPLE_MUSIC_DISC);
+
                     entries.add(ModItems.ARCHON_BREAD);
+
                     entries.add(ModBlocks.ELPIS);
                 }).build());
 

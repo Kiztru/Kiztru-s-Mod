@@ -3,6 +3,7 @@ package com.kiztru.mod.block;
 import com.kiztru.mod.KiztrusMod;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -18,9 +19,25 @@ public class ModBlocks {
         new Block(AbstractBlock.Settings.
         create().strength(5.0F,6.0F).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block BLOCK_OF_FIRE = registerBlock("block_of_fire",
+            new Block(AbstractBlock.Settings.
+                    create().strength(5.0F,6.0F).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block BLOCK_OF_CHAOS = registerBlock("block_of_chaos",
+            new Block(AbstractBlock.Settings.
+                    create().strength(5.0F,6.0F).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block RAW_BLOCK_OF_AETHER = registerBlock("raw_block_of_aether",
         new Block(AbstractBlock.Settings.
         create().strength(5.0F,6.0F).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block RAW_BLOCK_OF_FIRE = registerBlock("raw_block_of_fire",
+            new Block(AbstractBlock.Settings.
+                    create().strength(5.0F,6.0F).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block RAW_BLOCK_OF_CHAOS = registerBlock("raw_block_of_chaos",
+            new Block(AbstractBlock.Settings.
+                    create().strength(5.0F,6.0F).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block AETHER_CRYSTAL_ORE = registerBlock("aether_crystal_ore",
         new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
@@ -29,6 +46,14 @@ public class ModBlocks {
     public static final Block DEEPSLATE_AETHER_CRYSTAL_ORE = registerBlock("deepslate_aether_crystal_ore",
         new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
                 AbstractBlock.Settings.create().strength(4.5F,3.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block NETHER_FIRE_CRYSTAL_ORE = registerBlock("nether_fire_crystal_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().strength(3.0F,3.0F).requiresTool().sounds(BlockSoundGroup.NETHER_ORE)));
+
+    public static final Block END_CHAOS_CRYSTAL_ORE = registerBlock("end_chaos_crystal_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().strength(3.0F,9.0F).requiresTool().instrument(NoteBlockInstrument.BASEDRUM)));
 
     public static final Block ELPIS = registerBlock("elpis",
             new FlowerBlock(StatusEffects.GLOWING,5.0F,

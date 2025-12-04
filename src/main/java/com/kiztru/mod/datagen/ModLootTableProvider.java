@@ -31,8 +31,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLOCK_OF_AETHER);
         addDrop(ModBlocks.RAW_BLOCK_OF_AETHER);
 
+        addDrop(ModBlocks.BLOCK_OF_FIRE);
+        addDrop(ModBlocks.RAW_BLOCK_OF_FIRE);
+
+        addDrop(ModBlocks.BLOCK_OF_CHAOS);
+        addDrop(ModBlocks.RAW_BLOCK_OF_FIRE);
+
         // Aether Crystal Ore drops ----> Aether Cluster
         addDrop(ModBlocks.AETHER_CRYSTAL_ORE, oreDrops(ModBlocks.AETHER_CRYSTAL_ORE, ModItems.AETHER_CLUSTER));
+
+        addDrop(ModBlocks.NETHER_FIRE_CRYSTAL_ORE, oreDrops(ModBlocks.NETHER_FIRE_CRYSTAL_ORE, ModItems.FIRE_CLUSTER));
+
+        addDrop(ModBlocks.END_CHAOS_CRYSTAL_ORE, oreDrops(ModBlocks.END_CHAOS_CRYSTAL_ORE, ModItems.CHAOS_CLUSTER));
 
         // Deepslate Aether Crystal Ore drops ----> Aether Cluster
         addDrop(ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_AETHER_CRYSTAL_ORE,
