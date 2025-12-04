@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "kiztrusmod:block/block_of_chaos"
+  }
+}

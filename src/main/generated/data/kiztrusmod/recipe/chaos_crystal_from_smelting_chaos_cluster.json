@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "chaos_crystal",
+  "ingredient": {
+    "item": "kiztrusmod:chaos_cluster"
+  },
+  "result": {
+    "id": "kiztrusmod:chaos_crystal"
+  }
+}

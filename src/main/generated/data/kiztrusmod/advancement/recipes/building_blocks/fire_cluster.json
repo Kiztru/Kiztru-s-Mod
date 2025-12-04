@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_block_of_fire": {
+      "conditions": {
+        "items": [
+          {
+            "items": "kiztrusmod:raw_block_of_fire"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:fire_cluster"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_block_of_fire"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:fire_cluster"
+    ]
+  }
+}

@@ -1,7 +1,16 @@
 {
   "item.kiztrusmod.aether_crystal": "Aether Crystal",
+  "item.kiztrusmod.fire_crystal": "Fire Crystal",
+  "item.kiztrusmod.chaos_crystal": "Chaos Crystal",
+
   "item.kiztrusmod.aether_cluster": "Aether Cluster",
+  "item.kiztrusmod.fire_cluster": "Fire Cluster",
+  "item.kiztrusmod.chaos_cluster": "Chaos Cluster",
+
   "item.kiztrusmod.aether_rod": "Aether Rod",
+  "item.kiztrusmod.fire_rod": "Fire Rod",
+  "item.kiztrusmod.chaos_rod": "Chaos Rod",
+
   "item.kiztrusmod.archon_bread": "Archon Bread",
 
   "item.kiztrusmod.aether_crystal_sword": "Aether Crystal Sword",
@@ -13,9 +22,18 @@
   "item.kiztrusmod.my_people_music_disc.desc": "FF14 OST Fleeting Moment",
 
   "block.kiztrusmod.block_of_aether": "Block of Aether",
+  "block.kiztrusmod.block_of_fire": "Block of Fire",
+  "block.kiztrusmod.block_of_chaos": "Block of Chaos",
+
   "block.kiztrusmod.raw_block_of_aether": "Block of Raw Aether",
+  "block.kiztrusmod.raw_block_of_fire": "Block of Raw Fire",
+  "block.kiztrusmod.raw_block_of_chaos": "Block of Raw Chaos",
+
   "block.kiztrusmod.aether_crystal_ore": "Aether Crystal Ore",
   "block.kiztrusmod.deepslate_aether_crystal_ore": "Deepslate Aether Crystal Ore",
+  "block.kiztrusmod.nether_fire_crystal_ore": "Nether Fire Crystal Ore",
+  "block.kiztrusmod.end_chaos_crystal_ore": "End Chaos Crystal Ore",
+
   "block.kiztrusmod.elpis": "Elpis",
   "block.kiztrusmod.potted_elpis": "Potted Elpis",
 

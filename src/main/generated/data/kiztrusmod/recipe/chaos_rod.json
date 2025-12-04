@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "kiztrusmod:chaos_crystal"
+    },
+    "E": {
+      "item": "minecraft:end_crystal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "C",
+    "E",
+    "S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "kiztrusmod:chaos_rod"
+  }
+}

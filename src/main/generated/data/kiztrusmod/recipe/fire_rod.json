@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:fire_charge"
+    },
+    "F": {
+      "item": "kiztrusmod:fire_crystal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "F",
+    "C",
+    "S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "kiztrusmod:fire_rod"
+  }
+}

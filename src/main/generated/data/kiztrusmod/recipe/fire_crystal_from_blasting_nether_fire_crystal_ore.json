@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "fire_crystal",
+  "ingredient": {
+    "item": "kiztrusmod:nether_fire_crystal_ore"
+  },
+  "result": {
+    "id": "kiztrusmod:fire_crystal"
+  }
+}

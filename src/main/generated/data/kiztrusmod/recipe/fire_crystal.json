@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "kiztrusmod:block_of_fire"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "kiztrusmod:fire_crystal"
+  }
+}

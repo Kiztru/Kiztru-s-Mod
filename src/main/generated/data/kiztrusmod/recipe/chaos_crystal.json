@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "kiztrusmod:block_of_chaos"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "kiztrusmod:chaos_crystal"
+  }
+}
