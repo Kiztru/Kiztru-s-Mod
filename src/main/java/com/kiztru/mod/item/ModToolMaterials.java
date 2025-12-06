@@ -10,7 +10,9 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    AETHER_CRYSTAL(ModTags.Blocks.INCORRECT_FOR_AETHER_CRYSTAL_TOOL, 1561, 8.5F, 3.5F, 20, () -> Ingredient.ofItems(ModItems.AETHER_CRYSTAL));
+    AETHER_CRYSTAL(ModTags.Blocks.INCORRECT_FOR_AETHER_CRYSTAL_TOOL, 1561, 8.5F, 3.5F, 25, () -> Ingredient.ofItems(ModItems.AETHER_CRYSTAL));
+
+
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "kiztrusmod:item/aether_crystal_shovel"
+  }
+}

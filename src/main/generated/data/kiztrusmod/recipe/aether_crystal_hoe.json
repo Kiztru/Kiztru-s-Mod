@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "kiztrusmod:aether_crystal"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "R": {
+      "item": "kiztrusmod:aether_rod"
+    }
+  },
+  "pattern": [
+    "AA",
+    " G",
+    " R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "kiztrusmod:aether_crystal_hoe"
+  }
+}

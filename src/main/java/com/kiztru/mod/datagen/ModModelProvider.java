@@ -51,6 +51,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MY_PEOPLE_MUSIC_DISC, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.AETHER_CRYSTAL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AETHER_CRYSTAL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AETHER_CRYSTAL_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AETHER_CRYSTAL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AETHER_CRYSTAL_SHOVEL, Models.HANDHELD);
 
     }
 }

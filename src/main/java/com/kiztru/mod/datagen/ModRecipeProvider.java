@@ -141,5 +141,57 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.GOLD_INGOT),conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(recipeExporter);
 
+        // Aether Crystal Axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AETHER_CRYSTAL_AXE)
+                .pattern("AA")
+                .pattern("AG")
+                .pattern(" R")
+                .input('A', ModItems.AETHER_CRYSTAL)
+                .input('G', Items.GOLD_INGOT)
+                .input('R', ModItems.AETHER_ROD)
+                .criterion(hasItem(ModItems.AETHER_CRYSTAL),conditionsFromItem(ModItems.AETHER_CRYSTAL))
+                .criterion(hasItem(ModItems.AETHER_ROD),conditionsFromItem(ModItems.AETHER_ROD))
+                .criterion(hasItem(Items.GOLD_INGOT),conditionsFromItem(Items.GOLD_INGOT))
+                .offerTo(recipeExporter);
+
+        // Aether Crystal Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AETHER_CRYSTAL_HOE)
+                .pattern("AA")
+                .pattern(" G")
+                .pattern(" R")
+                .input('A', ModItems.AETHER_CRYSTAL)
+                .input('G', Items.GOLD_INGOT)
+                .input('R', ModItems.AETHER_ROD)
+                .criterion(hasItem(ModItems.AETHER_CRYSTAL),conditionsFromItem(ModItems.AETHER_CRYSTAL))
+                .criterion(hasItem(ModItems.AETHER_ROD),conditionsFromItem(ModItems.AETHER_ROD))
+                .criterion(hasItem(Items.GOLD_INGOT),conditionsFromItem(Items.GOLD_INGOT))
+                .offerTo(recipeExporter);
+
+        // Aether Crystal Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AETHER_CRYSTAL_PICKAXE)
+                .pattern("AAA")
+                .pattern(" G ")
+                .pattern(" R ")
+                .input('A', ModItems.AETHER_CRYSTAL)
+                .input('G', Items.GOLD_INGOT)
+                .input('R', ModItems.AETHER_ROD)
+                .criterion(hasItem(ModItems.AETHER_CRYSTAL),conditionsFromItem(ModItems.AETHER_CRYSTAL))
+                .criterion(hasItem(ModItems.AETHER_ROD),conditionsFromItem(ModItems.AETHER_ROD))
+                .criterion(hasItem(Items.GOLD_INGOT),conditionsFromItem(Items.GOLD_INGOT))
+                .offerTo(recipeExporter);
+
+        // Aether Crystal Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AETHER_CRYSTAL_SHOVEL)
+                .pattern("G")
+                .pattern("A")
+                .pattern("R")
+                .input('A', ModItems.AETHER_CRYSTAL)
+                .input('G', Items.GOLD_INGOT)
+                .input('R', ModItems.AETHER_ROD)
+                .criterion(hasItem(ModItems.AETHER_CRYSTAL),conditionsFromItem(ModItems.AETHER_CRYSTAL))
+                .criterion(hasItem(ModItems.AETHER_ROD),conditionsFromItem(ModItems.AETHER_ROD))
+                .criterion(hasItem(Items.GOLD_INGOT),conditionsFromItem(Items.GOLD_INGOT))
+                .offerTo(recipeExporter);
+
     }
 }

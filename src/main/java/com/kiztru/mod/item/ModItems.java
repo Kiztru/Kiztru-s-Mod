@@ -1,12 +1,10 @@
 package com.kiztru.mod.item;
 
 import com.kiztru.mod.KiztrusMod;
-import com.kiztru.mod.item.custom.ModGlowingSwordItem;
+import com.kiztru.mod.item.custom.*;
 import com.kiztru.mod.sound.ModSounds;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -69,7 +67,25 @@ public class ModItems {
     public static final Item AETHER_CRYSTAL_SWORD = registerItem("aether_crystal_sword",
             new ModGlowingSwordItem(ModToolMaterials.AETHER_CRYSTAL, new Item.Settings()
                     .attributeModifiers(SwordItem.
-                            createAttributeModifiers(ModToolMaterials.AETHER_CRYSTAL,4, -2F))));
+                            createAttributeModifiers(ModToolMaterials.AETHER_CRYSTAL,4, -2.0F))));
+
+    public static final Item AETHER_CRYSTAL_AXE = registerItem("aether_crystal_axe",
+            new ModGlowingAxeItem(ModToolMaterials.AETHER_CRYSTAL, new Item.Settings()
+                    .attributeModifiers(AxeItem.
+                            createAttributeModifiers(ModToolMaterials.AETHER_CRYSTAL,6F,-2.6F))));
+
+    public static final Item AETHER_CRYSTAL_HOE = registerItem("aether_crystal_hoe",
+            new ModGlowingHoeItem(ModToolMaterials.AETHER_CRYSTAL, new Item.Settings()
+                    .attributeModifiers(HoeItem.
+                            createAttributeModifiers(ModToolMaterials.AETHER_CRYSTAL,-2F,0.0F))));
+
+    public static final Item AETHER_CRYSTAL_PICKAXE = registerItem("aether_crystal_pickaxe",
+            new ModGlowingPickaxeItem(ModToolMaterials.AETHER_CRYSTAL, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.AETHER_CRYSTAL,2F,-2.4F))));
+
+    public static final Item AETHER_CRYSTAL_SHOVEL = registerItem("aether_crystal_shovel",
+            new ModGlowingShovelItem(ModToolMaterials.AETHER_CRYSTAL, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.AETHER_CRYSTAL,2.5F,-2.6F))));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(KiztrusMod.MOD_ID, name),item);
