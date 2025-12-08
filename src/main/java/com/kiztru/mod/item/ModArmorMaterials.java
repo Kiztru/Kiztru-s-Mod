@@ -17,14 +17,20 @@ import java.util.function.Supplier;
 
 public class ModArmorMaterials {
     public static final RegistryEntry<ArmorMaterial> AETHER_CRYSTAL_ARMOR_MATERIAL = registerArmorMaterial("aether_crystal",
-            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map ->{
+            () -> new ArmorMaterial
+            (Util.make(new EnumMap<>(ArmorItem.Type.class), map ->{
                 map.put(ArmorItem.Type.BOOTS, 4);
                 map.put(ArmorItem.Type.LEGGINGS, 7);
                 map.put(ArmorItem.Type.CHESTPLATE, 9);
                 map.put(ArmorItem.Type.HELMET, 4);
                 map.put(ArmorItem.Type.BODY, 12);
-            }), 25, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,() -> Ingredient.ofItems(ModItems.AETHER_CRYSTAL),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(KiztrusMod.MOD_ID,"aether_crystal"))),0,0));
+            }),
+            25, // Enchantability
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
+            () -> Ingredient.ofItems(ModItems.AETHER_CRYSTAL),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(KiztrusMod.MOD_ID,"aether_crystal"))),
+                    0, // toughness
+                    0)); // knockbackResistance
 
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial (String name, Supplier<ArmorMaterial> material) {
