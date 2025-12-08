@@ -1,1 +1,7 @@
-// 1.21	2025-12-08T16:15:19.6381264	Kiztru's Mod/
+// 1.21	2025-12-09T01:53:32.0718119	Kiztru's Mod/
+04f9bb106f07fd091baa7fee609a86905d7763ce data\kiztrusmod\worldgen\configured_feature\nether_fire_crystal_ore.json
+00802d723fc08613920b02adcd2eac495111cc35 data\kiztrusmod\worldgen\placed_feature\aether_crystal_ore_placed.json
+2b6e79ea96e683bc39596084ea2b9b94179a0400 data\kiztrusmod\worldgen\configured_feature\end_chaos_crystal_ore.json
+6fd899afb76defcdd4df4f4977df1e473dd8dfb4 data\kiztrusmod\worldgen\placed_feature\nether_fire_crystal_ore_placed.json
+3d86be890378e82d028fbcfc2b06dcbc46b5f65e data\kiztrusmod\worldgen\configured_feature\aether_crystal_ore.json
+8d2046a9c1826c411e56bdd2189b3c113f738810 data\kiztrusmod\worldgen\placed_feature\end_chaos_crystal_ore_placed.json

@@ -1,9 +1,9 @@
-// 1.21	2025-12-08T16:15:19.6381264	Kiztru's Mod/Block Loot Tables
+// 1.21	2025-12-09T01:53:32.0728113	Kiztru's Mod/Block Loot Tables
 d08322ee07f443bfb8a17a5109ef6090cbe5e55f data\kiztrusmod\loot_table\blocks\block_of_aether.json
 f210d507d4bf251d1c67e2119d30732ed0438ce8 data\kiztrusmod\loot_table\blocks\block_of_chaos.json
 7370d237454e15307113dd91927e5c7c1b4256a3 data\kiztrusmod\loot_table\blocks\block_of_fire.json
-992211db533842b514528105e62735455b9d77fd data\kiztrusmod\loot_table\blocks\end_chaos_crystal_ore.json
 cc1fb18095a8c5addacb6edb9f414c792a586c80 data\kiztrusmod\loot_table\blocks\raw_block_of_aether.json
+992211db533842b514528105e62735455b9d77fd data\kiztrusmod\loot_table\blocks\end_chaos_crystal_ore.json
 565496e796a21788b6f3e8427fbf53d5c6212314 data\kiztrusmod\loot_table\blocks\aether_crystal_ore.json
 344cbb90732e7e8ee26d7def3120f978f6415b20 data\kiztrusmod\loot_table\blocks\raw_block_of_fire.json
 ca6654354cb2a7ef41df54a4603959575425d649 data\kiztrusmod\loot_table\blocks\nether_fire_crystal_ore.json
