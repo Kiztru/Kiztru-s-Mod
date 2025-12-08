@@ -29,8 +29,8 @@ public class ModArmorMaterials {
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
             () -> Ingredient.ofItems(ModItems.AETHER_CRYSTAL),
                     List.of(new ArmorMaterial.Layer(Identifier.of(KiztrusMod.MOD_ID,"aether_crystal"))),
-                    0, // toughness
-                    0)); // knockbackResistance
+                    2.0F, // toughness
+                      0.2F)); // knock back Resistance
 
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial (String name, Supplier<ArmorMaterial> material) {
