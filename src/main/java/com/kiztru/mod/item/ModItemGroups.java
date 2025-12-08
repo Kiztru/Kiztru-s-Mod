@@ -44,10 +44,15 @@ public static final ItemGroup AETHER_CRYSTAL = Registry.register(Registries.ITEM
                     entries.add(ModItems.CHAOS_ROD);
 
                     entries.add(ModItems.AETHER_CRYSTAL_SWORD);
+                    entries.add(ModItems.AETHER_CRYSTAL_SHOVEL);
                     entries.add(ModItems.AETHER_CRYSTAL_PICKAXE);
                     entries.add(ModItems.AETHER_CRYSTAL_AXE);
-                    entries.add(ModItems.AETHER_CRYSTAL_SHOVEL);
                     entries.add(ModItems.AETHER_CRYSTAL_HOE);
+
+                    entries.add(ModItems.AETHER_CRYSTAL_HELMET);
+                    entries.add(ModItems.AETHER_CRYSTAL_CHESTPLATE);
+                    entries.add(ModItems.AETHER_CRYSTAL_LEGGINGS);
+                    entries.add(ModItems.AETHER_CRYSTAL_BOOTS);
 
                     entries.add(ModItems.REMEMBER_US_MUSIC_DISC);
                     entries.add(ModItems.MY_PEOPLE_MUSIC_DISC);
@@ -58,6 +63,6 @@ public static final ItemGroup AETHER_CRYSTAL = Registry.register(Registries.ITEM
                 }).build());
 
     public static void registerItemGroups(){
-        KiztrusMod.LOGGER.info("Registering Item Groups for " + KiztrusMod.MOD_ID + AETHER_CRYSTAL);
+        KiztrusMod.LOGGER.info("Registering Item Groups for " + KiztrusMod.MOD_ID + "{}", AETHER_CRYSTAL);
     }
 }

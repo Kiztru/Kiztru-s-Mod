@@ -16,7 +16,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
-        // For full enchantables
+        // For full tools enchantables
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.AETHER_CRYSTAL_SWORD);
 
@@ -31,5 +31,19 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.AETHER_CRYSTAL_SHOVEL);
+
+        // For full Armor enchantables
+        getOrCreateTagBuilder(ItemTags.ARMOR_ENCHANTABLE)
+                .add(ModItems.AETHER_CRYSTAL_HELMET)
+                .add(ModItems.AETHER_CRYSTAL_CHESTPLATE)
+                .add(ModItems.AETHER_CRYSTAL_LEGGINGS)
+                .add(ModItems.AETHER_CRYSTAL_BOOTS);
+
+        // For Trimming features
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.AETHER_CRYSTAL_HELMET)
+                .add(ModItems.AETHER_CRYSTAL_CHESTPLATE)
+                .add(ModItems.AETHER_CRYSTAL_LEGGINGS)
+                .add(ModItems.AETHER_CRYSTAL_BOOTS);
     }
 }

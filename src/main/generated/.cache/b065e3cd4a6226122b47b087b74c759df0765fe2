@@ -1,6 +1,8 @@
-// 1.21	2025-12-06T20:01:42.2647135	Kiztru's Mod/Tags for minecraft:item
+// 1.21	2025-12-08T10:29:20.3808476	Kiztru's Mod/Tags for minecraft:item
 e83dbf89c3821de66c89f29ef5702696b21eb2df data\minecraft\tags\item\pickaxes.json
 0d9125871cae6553cb54709d10914ee3f39cfef5 data\minecraft\tags\item\axes.json
 e8a3ccdcf5f900b2142ae6d78bc6119c87960fb0 data\minecraft\tags\item\swords.json
+df663cfcd172817a3c951e7d6b50f05ffb6236ba data\minecraft\tags\item\trimmable_armor.json
 b26aba97588f2ce5449159d18e755cc64e13687f data\minecraft\tags\item\hoes.json
+df663cfcd172817a3c951e7d6b50f05ffb6236ba data\minecraft\tags\item\enchantable\armor.json
 748be795bf032aa9a6d1a77053a0bdda3954d1c6 data\minecraft\tags\item\shovels.json

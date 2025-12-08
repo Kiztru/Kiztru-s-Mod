@@ -87,6 +87,22 @@ public class ModItems {
             new ModGlowingShovelItem(ModToolMaterials.AETHER_CRYSTAL, new Item.Settings()
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.AETHER_CRYSTAL,2.5F,-2.6F))));
 
+    public static final Item AETHER_CRYSTAL_HELMET = registerItem("aether_crystal_helmet",
+            new ArmorItem(ModArmorMaterials.AETHER_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
+
+    public static final Item AETHER_CRYSTAL_CHESTPLATE = registerItem("aether_crystal_chestplate",
+            new ArmorItem(ModArmorMaterials.AETHER_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(40))));
+
+    public static final Item AETHER_CRYSTAL_LEGGINGS = registerItem("aether_crystal_leggings",
+            new ArmorItem(ModArmorMaterials.AETHER_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
+
+    public static final Item AETHER_CRYSTAL_BOOTS = registerItem("aether_crystal_boots",
+            new ArmorItem(ModArmorMaterials.AETHER_CRYSTAL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(KiztrusMod.MOD_ID, name),item);
     }

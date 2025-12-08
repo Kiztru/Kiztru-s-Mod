@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aether_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "kiztrusmod:aether_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "kiztrusmod:aether_crystal_leggings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aether_crystal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kiztrusmod:aether_crystal_leggings"
+    ]
+  }
+}

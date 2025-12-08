@@ -193,5 +193,40 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.GOLD_INGOT),conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(recipeExporter);
 
+        // Aether Crystal Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AETHER_CRYSTAL_HELMET)
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("   ")
+                .input('A', ModItems.AETHER_CRYSTAL)
+                .criterion(hasItem(ModItems.AETHER_CRYSTAL),conditionsFromItem(ModItems.AETHER_CRYSTAL))
+                .offerTo(recipeExporter);
+
+        // Aether Crystal Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AETHER_CRYSTAL_CHESTPLATE)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ModItems.AETHER_CRYSTAL)
+                .criterion(hasItem(ModItems.AETHER_CRYSTAL),conditionsFromItem(ModItems.AETHER_CRYSTAL))
+                .offerTo(recipeExporter);
+
+        // Aether Crystal Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AETHER_CRYSTAL_LEGGINGS)
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .input('A', ModItems.AETHER_CRYSTAL)
+                .criterion(hasItem(ModItems.AETHER_CRYSTAL),conditionsFromItem(ModItems.AETHER_CRYSTAL))
+                .offerTo(recipeExporter);
+
+        // Aether Crystal Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.AETHER_CRYSTAL_BOOTS)
+                .pattern("   ")
+                .pattern("A A")
+                .pattern("A A")
+                .input('A', ModItems.AETHER_CRYSTAL)
+                .criterion(hasItem(ModItems.AETHER_CRYSTAL),conditionsFromItem(ModItems.AETHER_CRYSTAL))
+                .offerTo(recipeExporter);
     }
 }
