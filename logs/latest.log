@@ -1,5 +1,5 @@
-[10:29:09] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.17.3
-[10:29:09] [main/INFO] (FabricLoader) Loading 55 mods:
+[16:15:03] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.17.3
+[16:15:04] [main/INFO] (FabricLoader) Loading 55 mods:
 	- fabric-api 0.102.0+1.21
 	- fabric-api-base 0.4.42+6573ed8cd1
 	- fabric-api-lookup-api-v1 1.6.68+b5597344d1
@@ -55,35 +55,35 @@
 	- kiztrusmod 0.0.1-a
 	- minecraft 1.21
 	- mixinextras 0.5.0
-[10:29:10] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Musab/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[10:29:10] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[10:29:10] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[10:29:10] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[10:29:11] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[10:29:12] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 462 milliseconds
-[10:29:13] [main/WARN] (PerfDataUtil) Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[10:29:13] [main/WARN] (PerfCounterQueryHandler) Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[10:29:13] [main/WARN] (PerfCounterQuery) Disabling further attempts to query Paging File.
-[10:29:14] [main/WARN] (WmiQueryHandler) COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
-[10:29:19] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:29:19] [Render thread/INFO] (Minecraft) Setting user: Player78
-[10:29:19] [Render thread/INFO] (kiztrusmod) Registering Item Groups for kiztrusmodnet.minecraft.item.ItemGroup@7e0e3225
-[10:29:19] [Render thread/INFO] (kiztrusmod) Registering Mod Items for kiztrusmod
-[10:29:19] [Render thread/INFO] (kiztrusmod) Registering Mod Blocks for kiztrusmod
-[10:29:19] [Render thread/INFO] (kiztrusmod) Registering Mod Sounds for kiztrusmod
-[10:29:19] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[10:29:19] [Render thread/INFO] (FabricDataGenHelper) Running data generator for kiztrusmod
-[10:29:20] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/Tags for minecraft:block
-[10:29:20] [Render thread/INFO] (Minecraft) Kiztru's Mod/Tags for minecraft:block finished after 10 ms
-[10:29:20] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/Tags for minecraft:item
-[10:29:20] [Render thread/INFO] (Minecraft) Kiztru's Mod/Tags for minecraft:item finished after 1 ms
-[10:29:20] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/Block Loot Tables
-[10:29:20] [Render thread/INFO] (Minecraft) Kiztru's Mod/Block Loot Tables finished after 13 ms
-[10:29:20] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/Model Definitions
-[10:29:20] [Render thread/INFO] (Minecraft) Kiztru's Mod/Model Definitions finished after 54 ms
-[10:29:20] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/Recipes
-[10:29:20] [Render thread/INFO] (Minecraft) Kiztru's Mod/Recipes finished after 56 ms
-[10:29:20] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/
-[10:29:20] [Render thread/INFO] (Minecraft) Kiztru's Mod/ finished after 3 ms
-[10:29:20] [Render thread/INFO] (Minecraft) All providers took: 142 ms
-[10:29:20] [Render thread/INFO] (Minecraft) Caching: total files: 196, old count: 188, new count: 197, removed stale: 0, written: 8
+[16:15:04] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Musab/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[16:15:04] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[16:15:04] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[16:15:04] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[16:15:05] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[16:15:06] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 260 milliseconds
+[16:15:07] [main/WARN] (PerfDataUtil) Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[16:15:07] [main/WARN] (PerfCounterQueryHandler) Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[16:15:07] [main/WARN] (PerfCounterQuery) Disabling further attempts to query Paging File.
+[16:15:13] [main/WARN] (WmiQueryHandler) COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[16:15:18] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:15:18] [Render thread/INFO] (Minecraft) Setting user: Player287
+[16:15:18] [Render thread/INFO] (kiztrusmod) Registering Item Groups for kiztrusmodnet.minecraft.item.ItemGroup@31c8c0c0
+[16:15:18] [Render thread/INFO] (kiztrusmod) Registering Mod Items for kiztrusmod
+[16:15:18] [Render thread/INFO] (kiztrusmod) Registering Mod Blocks for kiztrusmod
+[16:15:18] [Render thread/INFO] (kiztrusmod) Registering Mod Sounds for kiztrusmod
+[16:15:18] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[16:15:19] [Render thread/INFO] (FabricDataGenHelper) Running data generator for kiztrusmod
+[16:15:19] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/Tags for minecraft:block
+[16:15:19] [Render thread/INFO] (Minecraft) Kiztru's Mod/Tags for minecraft:block finished after 10 ms
+[16:15:19] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/Tags for minecraft:item
+[16:15:19] [Render thread/INFO] (Minecraft) Kiztru's Mod/Tags for minecraft:item finished after 1 ms
+[16:15:19] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/Block Loot Tables
+[16:15:19] [Render thread/INFO] (Minecraft) Kiztru's Mod/Block Loot Tables finished after 14 ms
+[16:15:19] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/Model Definitions
+[16:15:19] [Render thread/INFO] (Minecraft) Kiztru's Mod/Model Definitions finished after 45 ms
+[16:15:19] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/Recipes
+[16:15:19] [Render thread/INFO] (Minecraft) Kiztru's Mod/Recipes finished after 46 ms
+[16:15:19] [Render thread/INFO] (Minecraft) Starting provider: Kiztru's Mod/
+[16:15:19] [Render thread/INFO] (Minecraft) Kiztru's Mod/ finished after 3 ms
+[16:15:19] [Render thread/INFO] (Minecraft) All providers took: 122 ms
+[16:15:19] [Render thread/INFO] (Minecraft) Caching: total files: 196, old count: 196, new count: 197, removed stale: 0, written: 0
